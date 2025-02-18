@@ -12,7 +12,7 @@ Simple Laravel package to integrate ESC/POS Print Driver for PHP.
 Via Composer
 
 ``` bash
-$ composer require charlieuki/receiptprinter
+$ composer require shynne109/receiptprinter
 ```
 
 ## Sample App
@@ -213,14 +213,14 @@ If you discover any issues, please post the details on the [issue tracker](https
 
 MIT. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/charlieuki/receiptprinter.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/charlieuki/receiptprinter.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/charlieuki/receiptprinter/master.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/shynne109/receiptprinter.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/shynne109/receiptprinter.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/shynne109/receiptprinter/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/charlieuki/receiptprinter
-[link-downloads]: https://packagist.org/packages/charlieuki/receiptprinter
-[link-travis]: https://travis-ci.org/charlieuki/receiptprinter
+[link-packagist]: https://packagist.org/packages/shynne109/receiptprinter
+[link-downloads]: https://packagist.org/packages/shynne109/receiptprinter
+[link-travis]: https://travis-ci.org/shynne109/receiptprinter
 [link-styleci]: https://styleci.io/repos/12345678
 [link-author]: https://github.com/charlieuki
 [link-contributors]: ../../contributors

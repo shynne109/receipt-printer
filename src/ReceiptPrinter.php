@@ -338,4 +338,27 @@ class ReceiptPrinter
             throw new Exception('Printer has not been initialized.');
         }
     }
+
+    public function printTag($with_items = true) {
+        if ($this->printer) {
+            // Get request amount
+            // Print items
+            if ($with_items) {
+                foreach ($this->items as $item) {
+                    $this->printer->setJustification(Printer::JUSTIFY_LEFT);
+                    $this->printDashedLine();
+                    $this->printer->text($item);
+                    $this->printDashedLine();
+                     // Add space and cut after each tag
+                    $this->printer->feed(2);
+                    $this->printer->cut(Printer::CUT_PARTIAL);
+                    $this->printer->feed(3); // Add extra feed for tear-off
+                }
+            }
+           
+            $this->printer->close();
+        } else {
+            throw new Exception('Printer has not been initialized.');
+        }
+    }
 }
