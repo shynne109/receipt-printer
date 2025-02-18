@@ -83,6 +83,10 @@ class ReceiptPrinter
         $this->items[] = $item;
     }
 
+    public function addContent($content) {
+        $this->items[] = $content;
+    }
+
     public function setRequestAmount($amount) {
         $this->request_amount = $amount;
     }
